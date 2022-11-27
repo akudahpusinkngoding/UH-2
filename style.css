@@ -1,0 +1,50 @@
+.banner{
+    width: 100vw;
+    height: 20vh;
+    /* background-color:lightsalmon; */
+    background: url(./cover.jpg);
+
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color:lavender;
+    height: 70vh;
+    width: 20vw;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.isi{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: justify;
+}
+.footer{
+    background-color: darkseagreen;
+    height: 10vh;
+}
+
+.container{
+    display: grid;
+    column-gap: 0;
+    row-gap: 0;
+    columns: 2;
+}
+
+.footer{
+    text-align: center;
+}
+
+.h1{
+    text-align: center;
+}
